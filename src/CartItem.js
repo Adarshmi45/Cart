@@ -22,7 +22,7 @@ class CartItem extends React.Component {
                     <div style={{color:'#777'}}>Rs {price}</div>
                     <div style={{color:'#777'}}>Qty : {qty}</div>
                     <div className="cart-item-actions">
-                    <img alt="increase" className="action-icons" src="https://cdn-icons.flaticon.com/png/512/3524/premium/3524388.png?token=exp=1658728672~hmac=1c3f97fc52f28f9ba75951499e1ecc15" />
+                    <img alt="increase" className="action-icons" src="https://cdn-icons.flaticon.com/png/512/3524/premium/3524388.png?token=exp=1658728672~hmac=1c3f97fc52f28f9ba75951499e1ecc15" onClick={this.increaseQuantity.bind(this)}/>
                     <img alt="decrease" className="action-icons" src="https://cdn-icons-png.flaticon.com/512/992/992683.png" />
                     <img alt="delete" className="action-icons" src="https://cdn-icons.flaticon.com/png/512/3405/premium/3405244.png?token=exp=1658728732~hmac=4255257053bad94c6e9a598ee01b13e6" />
                     </div>
