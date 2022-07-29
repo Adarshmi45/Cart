@@ -1,6 +1,10 @@
 import React from "react";
 import Cart from "./Cart"
 import Navbar from "./Navbar";
+import { initializeApp } from "firebase/app";
+import { getFirestore } from 'firebase/firestore/lite';
+
+
 
 class App extends React.Component {
   constructor() {
@@ -31,6 +35,9 @@ class App extends React.Component {
       ]
     }
   }
+
+ 
+
   handleIncreaseQuantity = (product) => {
     const { products } = this.state;
     const index = products.indexOf(product);
