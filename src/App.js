@@ -93,7 +93,7 @@ class App extends React.Component {
          onIncreaseQuantity={this.handleIncreaseQuantity}
          onDecreaseQuantity={this.handleDecreaseQuantity}
          onDeleteProduct = {this.handleDeleteProduct}/>
-         <div style={{margin :10 , paddng: 10,fontSize: 20}}>TOTAL: Rs {this.getCartTotal()}/-</div>
+         <div style={{margin :10 , paddng: 10,fontSize: 20}}><h3>TOTAL: Rs {this.getCartTotal()}/-</h3></div>
       </div>
     );
   }

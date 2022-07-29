@@ -18,7 +18,7 @@ const styles = {
     },
     nav: {
       height: 70,
-      background: '#A10035',
+      background: '#5800FF',
       display: 'flex',
       justifyContent: 'flex-end',
       alignItems: 'center'
